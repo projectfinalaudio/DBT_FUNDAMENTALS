@@ -856,7 +856,7 @@ A. `select * from {{ source(‘salesforce’, ‘products’) }}`
 **Consider the DAG of a dbt project listed above. What was most likely missed by the data team working on this project?**
 A. They did not use the source function to build a dependency between staging models and sources
 
-**Q.** ```yml
+**Q.** 
 ```yaml
 version: 2
 
